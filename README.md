@@ -12,29 +12,33 @@ I used the following version of softwares; Anaconda(python data) 4.8.5 Python 3.
 For the district summary we have used school_data_complete_df dataframe which was obtained by merginng the two dataframes; school_data_df and student_data_df. Since we have the 9th grade math and reading scores of Thomas High school replaced with Nan , this has changed the district summary analysis. The following points below explain the changes in the district.
 
 ##### a. The average reading score and average math score
-The average reading score changed from 81.87 to 81.85 and the average math score changed from 78.98 to 78.93. These average scores were reduced because the 9th grade math and reading scores were replaced by NaN. The reference image link is score_comparison
+The average reading score changed from 81.87 to 81.85 and the average math score changed from 78.98 to 78.93. These average scores were reduced because the 9th grade math and reading scores were replaced by NaN. The reference image link is (https://github.com/Vaishali715/School_District_Analysis/blob/main/Resources/scores_comparison.png)
 
 ##### b.The number of students that are in ninth grade at Thomas High School, the total student count and the new total student count
 This data is calculated by assigning the below variables to get the output as follows ninth_grade_Thomas_High_School = 461
 student_count = 39170
 new_total_student_count = 38709 
-New_total_count.png file for reference
+https://github.com/Vaishali715/School_District_Analysis/blob/main/Resources/New_total_count.png
 
 ##### c. Passing reading count and passing math count
 The student count of Passing reading score changed from 33610 to 33158 and Passing math score changed from 29370 to28939. Since the 9th grade data with Nan is not part of the district summary now the above scores have reduced.
-passing_for_module.png and passing_for_challenge
+https://github.com/Vaishali715/School_District_Analysis/blob/main/Resources/passing_for_module.png
+https://github.com/Vaishali715/School_District_Analysis/blob/main/Resources/passing_for_challenge.png
 
 ##### d. Calculate the passing reading percenatge and the passing math percentage
 The passing percentages have also been changed for reading from 85.80% to 85.65% and for math from 74.98% to 74.76% .As the reading scores reduced the passsing percetages also reduced as they are directly proportional.
-percentage_for_module.png and percentage_for_challenge.png
+https://github.com/Vaishali715/School_District_Analysis/blob/main/Resources/percentage_for_module.png
+https://github.com/Vaishali715/School_District_Analysis/blob/main/Resources/percentage_for_challenge.png
 
 ##### e. Overall passing percentage
 The overall passing percentage has changed form 65.17% to 64.85% 
-overall_percentage_module.png and overall_percentage_challenge.png
+https://github.com/Vaishali715/School_District_Analysis/blob/main/Resources/overall_percentage_module.png
+https://github.com/Vaishali715/School_District_Analysis/blob/main/Resources/overall_percentage_challenge.png
 
 ##### f. Final changed district summary.
 Applying all the above changes in the district summary file.
-District_summary_module_challenge.png-2
+https://github.com/Vaishali715/School_District_Analysis/blob/main/Resources/district_summary_module.png
+https://github.com/Vaishali715/School_District_Analysis/blob/main/Resources/District_summary_challenge.png
 
 #### 2. Below data and analysis shows how the school summary is affected.
 We have the new dataframe per_school_summary_df and this did not reflect the changes that happened in the Thomas High School, and in order to update this dataframe we have done some calculations as below.
@@ -53,13 +57,15 @@ thomas_total_passing_df = 1064
 
 ##### e. The percentage of 10th-12th grade students passing math, reading from Thomas High School and the overall passing percentage of 10th-12th grade from Thomas High School.
 thomas_passing_math_percentage = 93.18 thomas_passing_reading_percentage = 97.01 thomas_overall_passing_percentage = 90.63
-All the above findings can be seen in Thomas_info.png
+All the above findings can be seen in https://github.com/Vaishali715/School_District_Analysis/blob/main/Resources/Thomas_info.png
 
 ##### f.The above data is now reflected in the per_school_summary_df by updating the dataframe.There is change in the data for Thomas High School
-school_summary_thomas.png
+https://github.com/Vaishali715/School_District_Analysis/blob/main/Resources/School_summary_Thomas.png
 
 #### 3. How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
-We have calculate the top 5 schools and the bottom 5 school, Thomas High school was on the 2nd rank in the top 5 schools list in the module, however there have been changes in the school data as the math and reading scores for 9th grade have been marked as Nan but these changes did not affect the overall ranking of Thomas High school. It still holds 2nd position in the analysis. schools_top5_challenge.png
+We have calculate the top 5 schools and the bottom 5 school, Thomas High school was on the 2nd rank in the top 5 schools list in the module, however there have been changes in the school data as the math and reading scores for 9th grade have been marked as Nan but these changes did not affect the overall ranking of Thomas High school. It still holds 2nd position in the analysis. 
+https://github.com/Vaishali715/School_District_Analysis/blob/main/Resources/schools_top5_module.png
+https://github.com/Vaishali715/School_District_Analysis/blob/main/Resources/schools_top5_challenge.png
 
 #### 4. Replacing the ninth-grade scores affect the following:
 ##### a. Math and reading scores by grade
